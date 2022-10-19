@@ -43,7 +43,7 @@ public class ProductManagementMenu {
                     scanner.nextLine();
                     Product pS = productManagement.searchByID(searchId);
                     if(pS != null)  System.out.println(pS);
-                    System.out.println("Khong tim thay");
+                    else System.out.println("Khong tim thay");
                     break;
                 case 5:
                     System.out.println(productManagement.toString());

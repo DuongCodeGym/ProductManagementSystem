@@ -40,8 +40,7 @@ public class ProductManagement {
 
     @Override
     public String toString() {
-        return "ProductManagement{" +
-                "products=" + products +
-                '}';
+        return  products.toString();
+
     }
 }
